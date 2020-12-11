@@ -7,8 +7,8 @@
 * At the end of the game, the host will draw numbers `i` from `[0, n)` without replacement.
 And each time an `i` is drawn, people with `i` on his/her board can cross it out number.
 * The game will end when at least one person's board connect.
-* We want to know how many iterations will the host need to draw the number in average.
-And how many boards will connect when the game ends.
+* We want to know **how many iterations will the host needs to draw the number in average**.
+And **how many boards will connect** when the game ends.
 
 ## Simuation Result
 
