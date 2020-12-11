@@ -98,6 +98,9 @@ def simulate(seed, num_tests, num_people, board_size):
 
         # if we draw all people, the game must end
         assert end
+        # at least will take 3 iterations to connect the board
+        assert end_iteration >= 2
+
         report.add(end_iteration, num_hit_board)
 
     assert report.count == num_tests
