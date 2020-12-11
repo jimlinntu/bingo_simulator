@@ -14,14 +14,14 @@ And **how many boards will connect** when the game ends.
 
 (The number of experiments: `10000`)
 
-|`n`|`size`|The average number of iterations|The number of boards connect|
+|`n`|`size`|The average number of iterations (standard deviation)|The number of boards connect|
 |---|---|---|---|
-|30|3|5.75|1.31|
-|30|4|8.27|1.29|
-|35|3|6.26|1.28|
-|35|4|9.12|1.26|
-|40|3|6.67|1.25|
-|40|4|9.85|1.23|
+|30|3|5.75 (1.49)|1.31|
+|30|4|8.27 (1.72)|1.29|
+|35|3|6.26 (1.69)|1.28|
+|35|4|9.12 (1.97)|1.26|
+|40|3|6.67 (1.84)|1.25|
+|40|4|9.85 (2.18)|1.23|
 
 ## How to Run
 `python simulator.py <num exps> <n> <size>`
