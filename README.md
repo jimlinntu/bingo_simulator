@@ -10,7 +10,7 @@ And each time an `i` is drawn, people with `i` on his/her board can cross it out
 * We want to know **how many iterations will the host needs to draw the number in average**.
 And **how many boards will connect** when the game ends.
 
-## Simuation Result
+## Simulation Result
 
 (The number of experiments: `10000`)
 
